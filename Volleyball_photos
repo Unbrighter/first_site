@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Holiday photos</title>
+<style>
+body{
+	height: 80px;
+	width: 500px;
+}
+</style>
+</head>
+
+<body>
+<h1> Spain</h1>
+<p>Pictures taken in Madrid</p>
+<div class="pictures">
+<img src= ./Photos/Spain/P1060330.JPG>
+<img src= ./Photos/Spain/P1060331.JPG>
+</div>
+</body>
+</html>
