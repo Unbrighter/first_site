@@ -3,20 +3,22 @@
 
 <head>
 <title>Holiday photos</title>
-<style>
-body{
-	height: 80px;
-	width: 500px;
-}
-</style>
+<link href="stylesheet.css" type="font/css" rel="stylesheet"/> 
 </head>
 
 <body>
-<h1> Spain</h1>
-<p>Pictures taken in Madrid</p>
-<div class="pictures">
-<img src= ./Photos/Spain/P1060330.JPG>
-<img src= ./Photos/Spain/P1060331.JPG>
+<div class='container'>
+<header>
+<h1><a href="./index.html"> Spain Shots</a></h1>
+
+<ul>
+<li class='active'><a href='./madrid_photos'>Madrid</a></li>
+<li><a href='./barcelona_photos'>Barcelona</a></li>
+</ul>
+</header>
 </div>
+<br/>
+<p style="font-size:40px; color:blue;"> <strong>Hello there!</strong> <br/>Welcome to the start of a family photo viewing website. <br/>Press on the <em>location names</em> to view photos.</p>
+<p style="font size:20px; color:navy;">As this is a work in progress, please be patient for updates. Thank you.</p>
 </body>
 </html>

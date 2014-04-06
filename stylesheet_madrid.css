@@ -1,0 +1,31 @@
+p{
+	margin: 250 300 250 300;
+}
+
+img{
+	height: 25%;
+	width: 25%;
+}
+figure{
+	vertical-align: center;
+	text-align: center;
+	margin: 500 500 500 500;
+	font: 20px black solid;
+	font-family:Helvetica,sans serif;
+}
+li{ padding: 10px 15px;
+	position:relative;
+	display:block;
+	float: left;
+}
+a{
+	text-decoration:none;
+}
+h2{
+	font-family: Cascada, sans serif;
+	font-size: 35px;
+}
+/*figcaption{
+	font-family:Helvetica Neue, Helvetica, sans serif;
+	color:red;
+}*/

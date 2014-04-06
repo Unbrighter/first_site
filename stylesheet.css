@@ -1,0 +1,59 @@
+span{
+	color:red; 
+	font-size: 40px
+}
+body{
+	text-align: center;
+	position: absolute;
+	padding: 0 0 0 0;
+	margin-top: 0;
+	margin-left: 0;
+	height:250px;
+	width:1300px;
+}
+h1{	
+	font-size: 100px;
+	font-family: New Period, Cursive;
+	color:white;
+	margin-top: 0px;
+	text-align: left;
+}
+header{
+	background-position: center;
+	background-image: url("./Photos/Spain/Spain_flag.png");
+	background-size: 20%;
+	position:relative;
+	text-align: center;
+	height:250px;
+	width:1500px;
+}
+ul{
+	font-size: 30px;
+	text-align: right;
+}
+li{ 
+	position:relative;
+	display:block;
+	padding-left:50px;
+	float:left;
+	color:aliceblue;
+	font-family: Cursive;
+	font-weight: 2;
+}
+
+a{
+	text-decoration:none;
+}
+p{
+	margin: 250 300 250 300;
+}
+
+img{
+	height: 25%;
+	width: 25%;
+}
+figure{
+	vertical-align: center;
+	text-align: center;
+	margin: 500 500 500 500;
+}
