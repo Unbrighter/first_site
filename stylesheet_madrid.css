@@ -18,6 +18,10 @@ li{ padding: 10px 15px;
 	display:block;
 	float: left;
 }
+.bubbles{
+	position:relative;
+	float:none;
+}
 a{
 	text-decoration:none;
 }
@@ -25,7 +29,7 @@ h2{
 	font-family: Cascada, sans serif;
 	font-size: 35px;
 }
-/*figcaption{
+figcaption{
 	font-family:Helvetica Neue, Helvetica, sans serif;
 	color:red;
-}*/
+}
