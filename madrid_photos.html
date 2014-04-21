@@ -12,17 +12,17 @@
 <div class='container'>
 <header>
 <h1><a href="./index.html"> Spain Shots</a></h1>
-
-<ul>
-<li class='active'>
-	
-		<li><ul><a href='./madrid_photos.html'>Madrid</a></li>
-		<li class="bubbles"><a href='#day_1'>Day 1</a></li>
-		<li class="bubbles"><a href='./madrid_day2.html'>Day 2</a></li>
-		<li class="bubbles"><a href='./madrid_day3.html'>Day 3</a></li>
-	</ul>	
-<li class='active'><a href='./barcelona_photos.html'>Barcelona</a></li>
-</ul>
+<ul class="spain">
+		<li class="dropdown" id="accountmenu">
+			<a class="dropdown-toggle" data-toggle="dropdown" href='./madrid_photos.html'>Madrid<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					<li><a href='./madrid_photos.html'>Day 1</a></li>
+					<li ><a href='./madrid_day2.html'>Day 2</a></li>
+					<li><a href='./madrid_day3.html'>Day 3</a></li>
+				</ul>	
+		</li>		
+		<li class='active'><a href='./barcelona_photos.html'>Barcelona</a></li>
+	</ul> 
 </header>
 </div>
 
@@ -80,5 +80,15 @@ Random arch in the park</figcaption></figure><br />
 </div>
 </div>
 </div>
+
+
+<script type="text/javascript" src="./twitter-bootstrap-v2/docs/assets/js/jquery.js"></script>  
+<script type="text/javascript" src="./twitter-bootstrap-v2/docs/assets/js/bootstrap-dropdown.js"></script>  
+<script type="text/javascript">  
+        $(document).ready(function () {  
+            $('.dropdown-toggle').dropdown();  
+        });  
+   </script>
+
 </body>
 </html>
